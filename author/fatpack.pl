@@ -65,7 +65,7 @@ my $target = 'v5.24';
 my ($git_describe, $git_url);
 if (my $version = $ENV{CPAN_RELEASE_VERSION}) {
     $git_describe = $version;
-    $git_url = "https://github.com/skaji/cpm/tree/$version";
+    $git_url = "https://github.com/amishHammer/cpm/tree/$version";
 } else {
     ($git_describe, $git_url) = git_info;
 }
